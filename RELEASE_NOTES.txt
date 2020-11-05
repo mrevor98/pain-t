@@ -1,0 +1,131 @@
+Paint Release Notes v0.6 (final)
+
+-Added 1 minute autosave
+-Added logging in console every minute
+-Added preview for select tool
+-Added functionality to have as many image tabs open as one wants
+-Added tooltips for dropper, polygon, polygon sides textbox, undo
+-Made code more object oriented overall
+-Fixed regular polygon "preview"
+-Added crop tool (extra feature)
+
+Known Issues:
+-Currently coded to deselect tool upon new tab
+-Have to reinitialize a tool when switching tabs
+-Autosaves only the current tab - not sure
+-Tabs do not have "smart save" when closed
+-Crop tool + undo results in the previous image being drawn on the resized canvas
+-Opening an image may open it on the wrong tab
+
+Links:
+-Demo: https://youtu.be/Ox_hzrk_K5I
+-Github: https://github.com/mrevor98/pain-t
+----------------------------------------------------
+Paint Release Notes v0.5
+
+-Added Javadoc
+-Added unit test for PolygonTool addToPoints method
+-Added unit test for Misc getExtension method
+-Made code significantly more object oriented
+
+Known Issues:
+-Test for getExtension fails. Unknown reason.
+
+Expected next features:
+-Autosave
+-Tabbed canvases
+-More Javadoc
+-More unit testing
+-Preview for select and drag
+-Copy and paste for select and drag
+-Github
+-Make code yet more OO
+
+Links:
+-Demo: https://youtu.be/-Z4LjjDJWgg
+----------------------------------------------------
+Paint Release Notes v0.4
+
+-Added text tool
+-Added rounded rectangle tool
+-Added eraser tool
+-Added redo button
+-Added "preview animations" for drawing tools
+-Added release notes and tools to help menu
+-Added select and drag tool
+-Added regular polygon tool
+
+Known Issues:
+-Regular polygon preview has "kaleidoscope effect"
+
+Expected next features:
+-Autosave
+-Javadoc
+-Save in file format other than original
+
+Links:
+Demo - https://youtu.be/Kx4Ej-1q9yA
+----------------------------------------------------
+Paint Release Notes v0.3
+
+-Added Line, Rectangle, Ellipse, Square, and Circle tools, with fill
+-Added "Smart" save (prompts user when new/open/exit without saving)
+-Supports JPG, PNG, GIF, and BMP files now
+-Added toolbar to the side to select which tool is used to draw
+-Added color grabber tool
+-Added resize function
+-Added zoom in/out functions
+-Added undo function
+
+Known Issues:
+-Resize doesn't scale image to new canvas size
+-Severe color distortion when saving as jpg
+-Undo changes "transparent" color to "white" color
+-
+
+Expected next features:
+-Redo function
+-Select and drag tool
+-Text addition tool
+-"Previews" on drawing tools
+-Extended help menu
+-Eraser tool
+
+Links:
+Demo - https://youtu.be/Lv7m4r96HII
+----------------------------------------------------
+Paint Release Notes v0.2
+
+-Added Save As function.
+-Added ability to draw.
+-Added (functional) color picker and width control for drawing.
+-Added initial canvas.
+-Added help menu and 'about' dialog.
+
+Known Issues:
+-Will not work properly if an attempt is made to open a file that is not an image.
+
+Expected next features:
+-Include ability to draw straight line.
+-Include ability to draw rectangle.
+
+Links:
+Demo - https://youtu.be/hBF9qBwOuWc
+----------------------------------------------------
+Paint Release Notes v0.1
+
+-Added menu bar.
+-Added a menu option to open and display a chosen image.
+-Added a menu option to exit smoothly.
+
+Known Issues:
+-Will not work properly if an attempt is made to open a file that is not an image.
+-Save function seems not to work properly (Has worked on one of my computers, and not on the other).
+
+Expecte next features:
+-Fix save function
+-Include 'save as' function
+-Make it so there is an initial canvas.
+
+Links:
+Demo - https://youtu.be/hSK6DtkcSBI
